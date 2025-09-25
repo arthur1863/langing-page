@@ -64,3 +64,32 @@ ul li {
   justify-content: center;
   align-items: center;
 }
+
+.cards {
+  max-width: 1132px;
+  margin: 2rem auto;
+  text-align: center;
+}
+.cards-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.card {
+  width: 160px;
+  height: 160px;
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 150px;
+  max-width: 200px;
+}
