@@ -93,3 +93,15 @@ ul li {
   min-width: 150px;
   max-width: 200px;
 }
+
+.quote-section {
+  margin: 1rem auto;
+  background-color: #e5e7eb;
+  padding: 2rem;
+}
+.quote {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  line-height: 1.6rem;
+}
