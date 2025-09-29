@@ -105,3 +105,31 @@ ul li {
   font-size: 1.25rem;
   line-height: 1.6rem;
 }
+.btn.action-btn {
+  border-color: white;
+}
+.action {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  max-width: 1132px;
+  padding: 2rem 4rem;
+}
+.action p {
+  color: white;
+  margin-bottom: 5px;
+}
+.action p:first-child {
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 2rem 4rem;
+  margin-top: 6rem;
+}
